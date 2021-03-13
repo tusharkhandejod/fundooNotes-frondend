@@ -1,0 +1,59 @@
+.inline-wrapper {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#card {
+    margin: auto;
+    margin-top: 5%;
+    height: 600px;
+    width: 550px;
+    justify-content: 30px;
+    border: solid black;
+}
+
+.inline-paper {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.inline-header {
+    height: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.form {
+    text-align: center;
+    padding: 0px 2% 0% 2%;
+    justify-content: flex-start;
+    justify-content: space-between;
+    display: block;
+    width: '100%';
+    margin-top: auto;
+    column-gap: 100px;
+}
+
+.address {
+    margin-top: -10px;
+    box-sizing: 100%;
+}
+
+.first-Name {
+    height: 5vh;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}

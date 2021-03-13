@@ -1,0 +1,7 @@
+.mainContent{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    margin: 65px;
+    justify-content: center;
+}
